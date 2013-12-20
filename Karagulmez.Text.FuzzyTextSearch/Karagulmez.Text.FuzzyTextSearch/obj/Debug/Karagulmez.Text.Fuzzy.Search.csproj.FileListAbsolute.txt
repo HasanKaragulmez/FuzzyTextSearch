@@ -1,0 +1,5 @@
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Debug\Karagulmez.Text.Fuzzy.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Debug\Karagulmez.Text.Fuzzy.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Debug\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Debug\Karagulmez.Text.Fuzzy.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Debug\Karagulmez.Text.Fuzzy.pdb

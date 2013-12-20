@@ -1,0 +1,7 @@
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\bin\Release\FuzzyTextSearchImplementor.exe
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\bin\Release\FuzzyTextSearchImplementor.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\bin\Release\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\obj\Release\FuzzyTextSearchImplementor.csprojResolveAssemblyReference.cache
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\obj\Release\FuzzyTextSearchImplementor.exe
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\obj\Release\FuzzyTextSearchImplementor.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\FuzzyTextSearchImplementor\FuzzyTextSearchImplementor\bin\Release\Karagulmez.Text.Fuzzy.dll
