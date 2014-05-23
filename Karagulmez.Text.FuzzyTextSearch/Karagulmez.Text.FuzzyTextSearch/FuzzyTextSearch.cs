@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Karagulmez.Text.Fuzzy
 {
@@ -22,13 +21,13 @@ namespace Karagulmez.Text.Fuzzy
         /// This class should inherit the Karagulmez.Text.Fuzzy.Interfaces.IConfigurator-interface
         /// </summary>
         /// <param name="assembly">Assembly</param>
-        /// <param name="classInit">Class-name in the given Assembly, which implements the IConfiguration-interface</param>        
-        public void InitializeConfiguration(string assembly, string className)
+        /// <param name="classInit">Class-name in the given Assembly, which implements the IConfiguration-interface</param>
+        public void InitializeConfiguration(string assembly, string className, object data = null)
         {
             _iConfigurator = (Karagulmez.Text.Fuzzy.Interfaces.IConfigurator)Activator.CreateInstance(assembly, className).Unwrap();
 
             Karagulmez.Text.Fuzzy.Interfaces.IItemsProvider itemsProvider = _iConfigurator.ItemsProvider();
-            _loadedItems = itemsProvider.Load();
+            _loadedItems = itemsProvider.Load(data);
 
             if (_loadedItems == null)
             {
@@ -42,7 +41,7 @@ namespace Karagulmez.Text.Fuzzy
             _termFilter = _iConfigurator.Filter();
             _itemsProvider = _iConfigurator.ItemsProvider();
 
-            _nGramTermsIndex = _nGramManager.LoadData(_loadedItems, _nGram, _termFilter);
+            _nGramTermsIndex = _nGramManager.LoadData(_loadedItems, _nGram);
         }
 
         /// <summary>
@@ -51,17 +50,19 @@ namespace Karagulmez.Text.Fuzzy
         /// <param name="searchTerm">The term to search for</param>
         /// <returns>An ICollection of keyvalue-pairs of given items, and the match percentage</returns>
         public IEnumerable<KeyValuePair<string, double>> Search(string searchTerm, int maxResults)
-        {
-            if(string.IsNullOrEmpty(searchTerm))
+        {   
+            if(string.IsNullOrEmpty(searchTerm) || searchTerm.Length < (int)_nGram)
             {
-                return null;
+                return new List<KeyValuePair<string, double>>();
             }
 
             if (maxResults <= 0)
+            {
                 maxResults = 1;
-
+            }
+            
             IEnumerable<KeyValuePair<int, double>> idResults = NGramManager.FindMostLikelyTermIdsByMatchPercentage(
-                                                                    searchTerm,                                                            
+                                                                    searchTerm,
                                                                     _loadedItemsCount,
                                                                     _itemsProvider,
                                                                     _termFilter,

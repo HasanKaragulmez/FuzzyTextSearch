@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Karagulmez.Text.Fuzzy.Interfaces
 {
@@ -13,8 +10,9 @@ namespace Karagulmez.Text.Fuzzy.Interfaces
         /// <summary>
         /// Signals the providing code to load content, and return a list of strings on which fuzzy text search should take place
         /// </summary>
+        /// <param name="data">An optional parameter for initializion purposes</param>
         /// <returns>A list of strings which are the fuzzy text search candidates</returns>
-        IEnumerable<string> Load();
+        IEnumerable<string> Load(object data);
 
         /// <summary>
         /// Allows to return the unencoded string to be returned. E.g. Load can return filtered results, but not display values

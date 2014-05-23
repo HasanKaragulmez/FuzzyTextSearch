@@ -2,12 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
+using NGramsForId = System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.Collections.Generic.HashSet<string>, int>>;
 //shorthand-types
 using PartitionData = System.Collections.Generic.Dictionary<string, System.Collections.Generic.HashSet<int>>;
-using NGramsForId = System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.Collections.Generic.HashSet<string>, int>>;
 
 namespace Karagulmez.Text.Fuzzy
 {
@@ -37,7 +35,7 @@ namespace Karagulmez.Text.Fuzzy
         /// </summary>
         /// <param name="data"></param>        
         /// <returns></returns>
-        public PartitionData LoadData(IEnumerable<string> data, NGRAMS nGram, IFilter filter)
+        public PartitionData LoadData(IEnumerable<string> data, NGRAMS nGram)
         {
             _nGram = nGram;
             _nGramsForId = new NGramsForId();
@@ -113,16 +111,18 @@ namespace Karagulmez.Text.Fuzzy
             int n = (int)nGramToUse;
 
             if (string.IsNullOrEmpty(word) || word.Length < n)
+            {
                 return null;
-
-            int spacer = word.Length % n;
+            }
+            
+            /*int spacer = word.Length % n;
             if (spacer > 0)
             {
                 word += "     ".Substring(spacer);
             }
-
+            */
             int wordLength = word.Length;
-            int partitions = wordLength == n ? 1 : wordLength - n;
+            int partitions = wordLength == n ? 1 : wordLength - 1;
 
             List<string> nGrams = new List<string>(wordLength / n);
             
@@ -151,15 +151,16 @@ namespace Karagulmez.Text.Fuzzy
             {
                 return null;
             }
-
-            int spacer = word.Length % n;
+            
+            /*int spacer = word.Length % n;
             if (spacer > 0)
             {
                 word += "     ".Substring(spacer);
             }
+             */
 
             int wordLength = word.Length;
-            int partitions = wordLength == n ? 1 : wordLength - n;
+            int partitions = wordLength == n ? 1 : wordLength - 1;
             var nGramhashSet = new string[partitions];
 
             for (int i = 0; i != partitions; i++)
@@ -212,7 +213,7 @@ namespace Karagulmez.Text.Fuzzy
             double perElementPercentage = 100.0 / searchWordNgrams.Count;
 
             //determine match-percentage for each candidate
-            //todo: multithread this, if there are more than 32 candidateterms
+            //Multithreaded, if there are more than 32 candidateterms
             //1- get number of procs
             //2- set minimum amount of threadpool-threads
             //3- divide amount of candidateterms over availablethreads

@@ -2,4 +2,3 @@ E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.Interfaces\Karagulme
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.Interfaces\Karagulmez.Text.Fuzzy.Interfaces\bin\Release\Karagulmez.Text.Fuzzy.Interfaces.pdb
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.Interfaces\Karagulmez.Text.Fuzzy.Interfaces\obj\Release\Karagulmez.Text.Fuzzy.Interfaces.dll
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.Interfaces\Karagulmez.Text.Fuzzy.Interfaces\obj\Release\Karagulmez.Text.Fuzzy.Interfaces.pdb
-E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.Interfaces\Karagulmez.Text.Fuzzy.Interfaces\obj\Release\Karagulmez.Text.Fuzzy.Interfaces.csprojResolveAssemblyReference.cache

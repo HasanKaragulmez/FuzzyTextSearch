@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 
 using NGramsForId = System.Collections.Generic.List<System.Collections.Generic.KeyValuePair<System.Collections.Generic.HashSet<string>, int>>;
@@ -63,14 +62,14 @@ namespace Karagulmez.Text.Fuzzy
 
                 //calculate matches
 
-                //calculate how much actually matches
+                //calculate how much actually matches                
                 double matchCount = _searchWordNgrams.Where(word_ngrams.Contains).Count();
 
                 //but we should still determine how many misses have occured for an accurate percentage
                 double totalNGramsWord = wordNgramsCount;
                 double thisWordMatchPercentage = matchCount / totalNGramsWord;
 
-                matchCount = (matchCount * thisWordMatchPercentage);
+                matchCount = matchCount * thisWordMatchPercentage;
 
                 double matchPercentage = matchCount * _perElementPercentage;
 

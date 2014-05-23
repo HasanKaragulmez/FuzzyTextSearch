@@ -1,6 +1,6 @@
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Release\Karagulmez.Text.Fuzzy.dll
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Release\Karagulmez.Text.Fuzzy.pdb
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\bin\Release\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Release\Karagulmez.Text.Fuzzy.Search.csprojResolveAssemblyReference.cache
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Release\Karagulmez.Text.Fuzzy.dll
 E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Release\Karagulmez.Text.Fuzzy.pdb
-E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.FuzzyTextSearch\Karagulmez.Text.FuzzyTextSearch\obj\Release\Karagulmez.Text.Fuzzy.Search.csprojResolveAssemblyReference.cache

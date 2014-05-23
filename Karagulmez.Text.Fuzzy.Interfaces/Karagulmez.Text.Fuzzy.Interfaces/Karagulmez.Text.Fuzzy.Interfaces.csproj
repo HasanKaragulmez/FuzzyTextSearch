@@ -39,8 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IConfigurator.cs" />
-    <Compile Include="IFilter.cs" />
+    <Compile Include="Filters\ILoadableFilter.cs" />
+    <Compile Include="Configurators\IConfigurator.cs" />
+    <Compile Include="Filters\IFilter.cs" />
     <Compile Include="IFuzzyTextSearchManager.cs" />
     <Compile Include="IItemsProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

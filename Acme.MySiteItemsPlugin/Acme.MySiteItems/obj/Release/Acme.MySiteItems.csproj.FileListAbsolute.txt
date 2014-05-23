@@ -1,6 +1,0 @@
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Release\Acme.MySiteItems.dll
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Release\Acme.MySiteItems.pdb
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Release\Karagulmez.Text.Fuzzy.Interfaces.dll
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Release\Acme.MySiteItems.dll
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Release\Acme.MySiteItems.pdb
-E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Release\Acme.MySiteItems.csprojResolveAssemblyReference.cache

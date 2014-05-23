@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Karagulmez.Text.Fuzzy.Interfaces
 {
@@ -12,8 +9,9 @@ namespace Karagulmez.Text.Fuzzy.Interfaces
         /// This class should inherit the Karagulmez.Text.Fuzzy.Interfaces.IConfigurator-interface
         /// </summary>
         /// <param name="assembly">Assembly</param>
-        /// <param name="classInit">Class-name in the given Assembly, which implements the IConfiguration-interface</param>
-        void InitializeConfiguration(string assembly, string className);
+        /// <param name="className">Class-name in the given Assembly, which implements the IConfiguration-interface</param>
+        /// <param name="data">Optional parameter in which custom-data can be passed</param>
+        void InitializeConfiguration(string assembly, string className, object data = null);
 
         /// <summary>
         /// Tries to find the most likely match by the given searchterm
