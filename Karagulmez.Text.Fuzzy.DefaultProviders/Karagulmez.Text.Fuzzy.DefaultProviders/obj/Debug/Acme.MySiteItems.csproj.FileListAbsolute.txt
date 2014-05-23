@@ -1,0 +1,12 @@
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.csprojResolveAssemblyReference.cache
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Debug\Acme.MySiteItems.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Debug\Acme.MySiteItems.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\bin\Debug\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItems\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\bin\Debug\Acme.MySiteItems.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\bin\Debug\Acme.MySiteItems.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\bin\Debug\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Acme.MySiteItemsPlugin\Acme.MySiteItems\obj\Debug\Acme.MySiteItems.csprojResolveAssemblyReference.cache

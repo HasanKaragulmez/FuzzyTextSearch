@@ -1,0 +1,20 @@
+//https://code.google.com/apis/ajax/playground/?type=visualization#line_chart
+
+function drawVisualization() {
+  // Create and populate the data table.
+  var data = google.visualization.arrayToDataTable([
+    ['x', 'Words', 'Distinct Words'],
+    ['203 kB',   34353,       5091],
+    ['409 kB',   67609,       7593],
+    ['612 kB',   100864,       10315],
+    ['819 kB',   134234,       12464],
+    ['1 MB',   174504,       14422]
+  ]);
+
+  // Create and draw the visualization.
+  new google.visualization.LineChart(document.getElementById('visualization')).
+      draw(data, {curveType: "function",
+                  width: 600, height: 600,
+                  vAxis: {maxValue: 10}}
+          );
+}

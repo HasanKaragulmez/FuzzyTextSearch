@@ -1,0 +1,6 @@
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\bin\Release\Karagulmez.Text.Fuzzy.DefaultProviders.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\bin\Release\Karagulmez.Text.Fuzzy.DefaultProviders.pdb
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\bin\Release\Karagulmez.Text.Fuzzy.Interfaces.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\obj\Release\Karagulmez.Text.Fuzzy.DefaultProviders.csprojResolveAssemblyReference.cache
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\obj\Release\Karagulmez.Text.Fuzzy.DefaultProviders.dll
+E:\Coding\NGramsUrlSuggest\Release-v1\Karagulmez.Text.Fuzzy.DefaultProviders\Karagulmez.Text.Fuzzy.DefaultProviders\obj\Release\Karagulmez.Text.Fuzzy.DefaultProviders.pdb
