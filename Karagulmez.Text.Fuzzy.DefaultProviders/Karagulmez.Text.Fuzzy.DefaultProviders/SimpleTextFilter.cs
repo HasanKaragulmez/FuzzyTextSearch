@@ -20,13 +20,15 @@ namespace Karagulmez.Text.Fuzzy.DefaultProviders
         public string Filter(string term)
         {
             if (string.IsNullOrEmpty(term))
-                return term;
+            {
+                return term;    //nothing to do here...
+            }
 
             //might want to do something with diacritics here...
             
          //   return Regex.Replace(term, "[a-zA-Z]", string.Empty);
             //greedy match for whole words, discards apostrophes
-            return Regex.Match(term, "[a-zA-z]+", RegexOptions.CultureInvariant).ToString();
+            return Regex.Match(term.ToLowerInvariant(), "[a-zA-z]+", RegexOptions.CultureInvariant).ToString();
         }
     }
 }
