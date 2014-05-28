@@ -28,7 +28,7 @@ namespace Karagulmez.Text.Fuzzy.DefaultProviders
             
          //   return Regex.Replace(term, "[a-zA-Z]", string.Empty);
             //greedy match for whole words, discards apostrophes
-            return Regex.Match(term.ToLowerInvariant(), "[a-zA-z]+", RegexOptions.CultureInvariant).ToString();
+            return Regex.Match(term.ToLowerInvariant(), "[a-z]+", RegexOptions.CultureInvariant).ToString();
         }
     }
 }
